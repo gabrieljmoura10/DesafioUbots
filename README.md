@@ -46,7 +46,7 @@ git clone https://github.com/gabrieljmoura10/DesafioUbots.git
 9 - Para receber uma recomendação de filme não avaliado acesse a url http://localhost:8080/movies/recommendations com a request GET
 
 10 - Para avaliar um filme acesse a url  http://localhost:8080/reviews com a request POST
-Utilize essa formatação para adicionar uma avaliação, foi definido a avaliação de 1 a 5
+<br/>Utilize essa formatação para adicionar uma avaliação, foi definido a avaliação de 1 a 5
 <br/>{
   <br/>"rating" : 4,
   <br/>"movieId" : "ID do filme"
