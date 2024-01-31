@@ -4,13 +4,13 @@
 Esta projeto foi desenvolvido como parte do Desafio Técnico da empresa Ubots. Seu propósito é criar uma API REST para criar, atualização, listagem, deleção e avaliação de filmes, podendo também ter um sistema de recomendação de filmes que não foram avaliados.
 
 # Tecnologias Utilizadas
-<br/>Linguagem de Programação: Java
+<br/>Linguagem de Programação: Java 17
 <br/>Framework: Spring
 <br/>Banco de Dados: PostgreSQL
 
 # Como executar o projeto
 1 - Clone este repositório
-<br/> git clone https://github.com/gabrieljmoura10/DesafioUbots.git
+<br/> '''git clone https://github.com/gabrieljmoura10/DesafioUbots.git'''
 
 2 - Crie o banco de dados dentro do gerenciado desejado: PgAdmin, Dbeaver
 <br/>Com o nome de "moviesdb"
@@ -21,7 +21,7 @@ Esta projeto foi desenvolvido como parte do Desafio Técnico da empresa Ubots. S
 
 5 - Abra algum API Client, utilizei o Insomnia 
 
-6 - Acesse a url http://localhost:8080/movies com a request POST para adicioar um novo filme no formato JSON
+6 - Acesse a url http://localhost:8080/movies com a request POST para adicionar um novo filme no formato JSON
 <br/>Utilize essa formatação para adicionar o filme
 <br/>{
   <br/>"title" : "nome do filme",
