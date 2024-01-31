@@ -10,8 +10,8 @@ Esta projeto foi desenvolvido como parte do Desafio Técnico da empresa Ubots. S
 
 # Como executar o projeto
 1 - Clone este repositório
-<br/> ```
-git clone https://github.com/gabrieljmoura10/DesafioUbots.git```
+<br/>
+git clone https://github.com/gabrieljmoura10/DesafioUbots.git
 
 
 2 - Crie o banco de dados dentro do gerenciado desejado: PgAdmin, Dbeaver
@@ -25,22 +25,20 @@ git clone https://github.com/gabrieljmoura10/DesafioUbots.git```
 
 6 - Acesse a url http://localhost:8080/movies com a request POST para adicionar um novo filme no formato JSON
 <br/>Utilize essa formatação para adicionar o filme
-<br/>```
-{
+<br/>{
   <br/>"title" : "nome do filme",
   <br/>"description" : "descrição do filme"
-<br/>}```
+<br/>}
 
 
 7 - Para listar os filmes acesse a url http://localhost:8080/movies com a request GET
 
 8 - Para atualizar um filme acesse a url http://localhost:8080/movies/{id do filme} com a request PUT
 <br/>Utilize essa formatação para atualizar um determinado filme
-<br/>```
-{
+<br/>{
   <br/>"title" : "nome do filme",
   <br/>"description" : "descrição do filme"
-<br/>}```
+<br/>}
 
 
 8 - Para deletar um filme acesse a url http://localhost:8080/movies/{id do filme} com a request DELETE
@@ -49,10 +47,8 @@ git clone https://github.com/gabrieljmoura10/DesafioUbots.git```
 
 10 - Para avaliar um filme acesse a url  http://localhost:8080/reviews com a request POST
 Utilize essa formatação para adicionar uma avaliação, foi definido a avaliação de 1 a 5
-<br/>```
-{
+<br/>{
   <br/>"rating" : 4,
   <br/>"movieId" : "ID do filme"
-<br/>}```
-
+<br/>}
 
