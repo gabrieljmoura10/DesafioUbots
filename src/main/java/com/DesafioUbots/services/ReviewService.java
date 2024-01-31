@@ -23,12 +23,12 @@ public class ReviewService {
     public Optional<Review> createReview(ReviewDTO reviewDTO) {
         Optional<Movie> movieOptional = movieRepository.findById(reviewDTO.movieId());
         if (movieOptional.isEmpty()) {
-            return Optional.empty(); // Movie not found
+            return Optional.empty(); 
         }
 
         int rating = reviewDTO.rating();
         if (rating < 1 || rating > 5) {
-            return Optional.empty(); // Invalid rating value
+            return Optional.empty(); 
         }
 
         Movie movie = movieOptional.get();
