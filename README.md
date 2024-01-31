@@ -1,7 +1,7 @@
 # DesafioUbots
 
 # Sobre
-Esta projeto foi desenvolvido como parte do Desafio Técnico da empresa Ubots. Seu propósito é criar uma API REST para criar, atualização, listagem, deleção e avaliação de filmes, podendo também ter um sistema de recomendação de filmes que não foram avaliados.
+Esta projeto foi desenvolvido como parte do Desafio Técnico da empresa Ubots. Seu propósito é desenvolver uma API REST para criar, atualizar, listar, deletar e avaliar filmes, podendo também ter um sistema de recomendação de filmes que não foram avaliados.
 
 # Tecnologias Utilizadas
 <br/>Linguagem de Programação: Java 17
