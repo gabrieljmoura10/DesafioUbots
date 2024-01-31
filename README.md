@@ -10,10 +10,10 @@ Esta projeto foi desenvolvido como parte do Desafio Técnico da empresa Ubots. S
 
 # Como executar o projeto
 1 - Clone este repositório
-$ git clone https://github.com/gabrieljmoura10/DesafioUbots.git
+<br/> git clone https://github.com/gabrieljmoura10/DesafioUbots.git
 
 2 - Crie o banco de dados dentro do gerenciado desejado: PgAdmin, Dbeaver
-Com o nome de "moviesdb"
+<br/>Com o nome de "moviesdb"
 
 3 - Abra o projeto em sua IDE desejada, utilizei o Intellij Idea
 
@@ -22,8 +22,8 @@ Com o nome de "moviesdb"
 5 - Abra algum API Client, utilizei o Insomnia 
 
 6 - Acesse a url http://localhost:8080/movies com a request POST para adicioar um novo filme no formato JSON
-Utilize essa formatação para adicionar o filme
-{
+<br/>Utilize essa formatação para adicionar o filme
+<br/>{
   "title" : "nome do filme",
   "description" : "descrição do filme"
 }
@@ -31,8 +31,8 @@ Utilize essa formatação para adicionar o filme
 7 - Para listar os filmes acesse a url http://localhost:8080/movies com a request GET
 
 8 - Para atualizar um filme acesse a url http://localhost:8080/movies/{id do filme} com a request PUT
-Utilize essa formatação para atualizar um determinado filme
-{
+<br/>Utilize essa formatação para atualizar um determinado filme
+<br/>{
   "title" : "nome do filme",
   "description" : "descrição do filme"
 }
@@ -43,7 +43,7 @@ Utilize essa formatação para atualizar um determinado filme
 
 10 - Para avaliar um filme acesse a url  http://localhost:8080/reviews com a request POST
 Utilize essa formatação para adicionar uma avaliação, foi definido a avaliação de 1 a 5
-{
+<br/>{
   "rating" : 4,
   "movieId" : "ID do filme"
 }
